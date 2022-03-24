@@ -1,6 +1,6 @@
 # philosophers
 ### I never thought philosophy would be so deadly
-<img width="225" src="https://github.com/eschirni/philosophers/blob/master/readme_src/100.png"><img width="772" height="233.5" src="https://github.com/eschirni/philosophers/blob/master/readme_src/philosophers.png">
+<img width="225" src="https://github.com/eschirni/philosophers/blob/master/readme_src/100.png"><img width="770" height="233.5" src="https://github.com/eschirni/philosophers/blob/master/readme_src/philosophers.png">
 
 ## Description of the subject
 Philosophers is a project about solving the [dining philosophers problem](https://en.wikipedia.org/wiki/Dining_philosophers_problem) by writing a simulation of philosophers sitting around a table. The philosophers alternatively eat, think, or sleep. Once a philosophers is done eating he will sleep, afterwards think and then eat again. There is a fork for every philosopher and 2 forks are needed for a philosopher to eat. Once a philosopher starts eating his time to die will be reset and the other philosophers can't access the forks anymore while he eats. If a philosopher dies the simulation will stop.
